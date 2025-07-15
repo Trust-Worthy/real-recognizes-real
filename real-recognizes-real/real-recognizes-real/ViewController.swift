@@ -23,7 +23,6 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelega
         accountsTableView.dataSource = self
         searchBar.delegate = self
         
-        view.backgroundColor = UIColor.blue
         
         accounts = [
                     Account(name: "Alice @ Gmail", otp: "123456"),
@@ -50,6 +49,16 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelega
         return cell
     }
     
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
+        
+        filteredAccounts = searchText.isEmpty ? accounts : accounts.filter {
+            $0.name.lowercased().contains(searchText.lowercased())
+        }
+        
+        // reload the tableview after any changes
+        accountsTableView.reloadData()
+    }
 
     struct Account {
         let name: String
