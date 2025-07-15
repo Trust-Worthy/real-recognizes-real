@@ -2,13 +2,16 @@
 //  AccountCell.swift
 //  real-recognizes-real
 //
-//  Created by Jonathan Bateman on 7/15/25.
+//  Created by Trust-Worthy on 7/15/25.
 //
 
 import UIKit
 
 class AccountCell: UITableViewCell {
-
+    
+    @IBOutlet weak var accountNameLabel: UILabel!
+    
+    @IBOutlet weak var accountOTPLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

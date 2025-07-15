@@ -11,14 +11,13 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
-    private var accounts: [Account] = []
+    private var accounts: [Account] = Account.getAccounts()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         tableView.dataSource = self
-        accounts = Account.getAccounts()
        
     }
 
@@ -29,13 +28,24 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "AccountCell", for: indexPath) as! AccountCell
         
         let account = accounts[indexPath.row]
-        
-        cell.textLabel?.text = account.name
+        print(account)
+        print(account.name)
+        print(account.OTP)
+        cell.accountNameLabel.text = account.name
+        cell.accountOTPLabel.text = account.OTP
         
         return cell
+        
+//        let cell = UITableViewCell()
+//        
+//        let account = accounts[indexPath.row]
+//        
+//        cell.textLabel?.text = account.name
+//        
+//        return cell
     }
 }
 
