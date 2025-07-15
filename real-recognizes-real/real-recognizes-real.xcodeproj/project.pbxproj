@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		67ABA2C22E26BFA000B65EAE /* PBXContainerItemProxy */ = {
+		67ABA3082E26DB1000B65EAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 67ABA2A02E26BF9E00B65EAE /* Project object */;
+			containerPortal = 67ABA2E62E26DB0E00B65EAE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67ABA2A72E26BF9E00B65EAE;
+			remoteGlobalIDString = 67ABA2ED2E26DB0E00B65EAE;
 			remoteInfo = "real-recognizes-real";
 		};
-		67ABA2CC2E26BFA000B65EAE /* PBXContainerItemProxy */ = {
+		67ABA3122E26DB1000B65EAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 67ABA2A02E26BF9E00B65EAE /* Project object */;
+			containerPortal = 67ABA2E62E26DB0E00B65EAE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67ABA2A72E26BF9E00B65EAE;
+			remoteGlobalIDString = 67ABA2ED2E26DB0E00B65EAE;
 			remoteInfo = "real-recognizes-real";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		67ABA2A82E26BF9E00B65EAE /* real-recognizes-real.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "real-recognizes-real.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67ABA2C12E26BFA000B65EAE /* real-recognizes-realTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-recognizes-realTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67ABA2CB2E26BFA000B65EAE /* real-recognizes-realUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-recognizes-realUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ABA2EE2E26DB0E00B65EAE /* real-recognizes-real.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "real-recognizes-real.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ABA3072E26DB1000B65EAE /* real-recognizes-realTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-recognizes-realTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ABA3112E26DB1000B65EAE /* real-recognizes-realUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-recognizes-realUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		67ABA2D32E26BFA000B65EAE /* Exceptions for "real-recognizes-real" folder in "real-recognizes-real" target */ = {
+		67ABA3192E26DB1000B65EAE /* Exceptions for "real-recognizes-real" folder in "real-recognizes-real" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 67ABA2A72E26BF9E00B65EAE /* real-recognizes-real */;
+			target = 67ABA2ED2E26DB0E00B65EAE /* real-recognizes-real */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		67ABA2AA2E26BF9E00B65EAE /* real-recognizes-real */ = {
+		67ABA2F02E26DB0E00B65EAE /* real-recognizes-real */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				67ABA2D32E26BFA000B65EAE /* Exceptions for "real-recognizes-real" folder in "real-recognizes-real" target */,
+				67ABA3192E26DB1000B65EAE /* Exceptions for "real-recognizes-real" folder in "real-recognizes-real" target */,
 			);
 			path = "real-recognizes-real";
 			sourceTree = "<group>";
 		};
-		67ABA2C42E26BFA000B65EAE /* real-recognizes-realTests */ = {
+		67ABA30A2E26DB1000B65EAE /* real-recognizes-realTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "real-recognizes-realTests";
 			sourceTree = "<group>";
 		};
-		67ABA2CE2E26BFA000B65EAE /* real-recognizes-realUITests */ = {
+		67ABA3142E26DB1000B65EAE /* real-recognizes-realUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "real-recognizes-realUITests";
 			sourceTree = "<group>";
@@ -61,21 +61,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		67ABA2A52E26BF9E00B65EAE /* Frameworks */ = {
+		67ABA2EB2E26DB0E00B65EAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67ABA2BE2E26BFA000B65EAE /* Frameworks */ = {
+		67ABA3042E26DB1000B65EAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67ABA2C82E26BFA000B65EAE /* Frameworks */ = {
+		67ABA30E2E26DB1000B65EAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		67ABA29F2E26BF9E00B65EAE = {
+		67ABA2E52E26DB0E00B65EAE = {
 			isa = PBXGroup;
 			children = (
-				67ABA2AA2E26BF9E00B65EAE /* real-recognizes-real */,
-				67ABA2C42E26BFA000B65EAE /* real-recognizes-realTests */,
-				67ABA2CE2E26BFA000B65EAE /* real-recognizes-realUITests */,
-				67ABA2A92E26BF9E00B65EAE /* Products */,
+				67ABA2F02E26DB0E00B65EAE /* real-recognizes-real */,
+				67ABA30A2E26DB1000B65EAE /* real-recognizes-realTests */,
+				67ABA3142E26DB1000B65EAE /* real-recognizes-realUITests */,
+				67ABA2EF2E26DB0E00B65EAE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		67ABA2A92E26BF9E00B65EAE /* Products */ = {
+		67ABA2EF2E26DB0E00B65EAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67ABA2A82E26BF9E00B65EAE /* real-recognizes-real.app */,
-				67ABA2C12E26BFA000B65EAE /* real-recognizes-realTests.xctest */,
-				67ABA2CB2E26BFA000B65EAE /* real-recognizes-realUITests.xctest */,
+				67ABA2EE2E26DB0E00B65EAE /* real-recognizes-real.app */,
+				67ABA3072E26DB1000B65EAE /* real-recognizes-realTests.xctest */,
+				67ABA3112E26DB1000B65EAE /* real-recognizes-realUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67ABA2A72E26BF9E00B65EAE /* real-recognizes-real */ = {
+		67ABA2ED2E26DB0E00B65EAE /* real-recognizes-real */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67ABA2D42E26BFA000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-real" */;
+			buildConfigurationList = 67ABA31A2E26DB1000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-real" */;
 			buildPhases = (
-				67ABA2A42E26BF9E00B65EAE /* Sources */,
-				67ABA2A52E26BF9E00B65EAE /* Frameworks */,
-				67ABA2A62E26BF9E00B65EAE /* Resources */,
+				67ABA2EA2E26DB0E00B65EAE /* Sources */,
+				67ABA2EB2E26DB0E00B65EAE /* Frameworks */,
+				67ABA2EC2E26DB0E00B65EAE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				67ABA2AA2E26BF9E00B65EAE /* real-recognizes-real */,
+				67ABA2F02E26DB0E00B65EAE /* real-recognizes-real */,
 			);
 			name = "real-recognizes-real";
 			packageProductDependencies = (
 			);
 			productName = "real-recognizes-real";
-			productReference = 67ABA2A82E26BF9E00B65EAE /* real-recognizes-real.app */;
+			productReference = 67ABA2EE2E26DB0E00B65EAE /* real-recognizes-real.app */;
 			productType = "com.apple.product-type.application";
 		};
-		67ABA2C02E26BFA000B65EAE /* real-recognizes-realTests */ = {
+		67ABA3062E26DB1000B65EAE /* real-recognizes-realTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67ABA2D92E26BFA000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-realTests" */;
+			buildConfigurationList = 67ABA31F2E26DB1000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-realTests" */;
 			buildPhases = (
-				67ABA2BD2E26BFA000B65EAE /* Sources */,
-				67ABA2BE2E26BFA000B65EAE /* Frameworks */,
-				67ABA2BF2E26BFA000B65EAE /* Resources */,
+				67ABA3032E26DB1000B65EAE /* Sources */,
+				67ABA3042E26DB1000B65EAE /* Frameworks */,
+				67ABA3052E26DB1000B65EAE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				67ABA2C32E26BFA000B65EAE /* PBXTargetDependency */,
+				67ABA3092E26DB1000B65EAE /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				67ABA2C42E26BFA000B65EAE /* real-recognizes-realTests */,
+				67ABA30A2E26DB1000B65EAE /* real-recognizes-realTests */,
 			);
 			name = "real-recognizes-realTests";
 			packageProductDependencies = (
 			);
 			productName = "real-recognizes-realTests";
-			productReference = 67ABA2C12E26BFA000B65EAE /* real-recognizes-realTests.xctest */;
+			productReference = 67ABA3072E26DB1000B65EAE /* real-recognizes-realTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		67ABA2CA2E26BFA000B65EAE /* real-recognizes-realUITests */ = {
+		67ABA3102E26DB1000B65EAE /* real-recognizes-realUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67ABA2DC2E26BFA000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-realUITests" */;
+			buildConfigurationList = 67ABA3222E26DB1000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-realUITests" */;
 			buildPhases = (
-				67ABA2C72E26BFA000B65EAE /* Sources */,
-				67ABA2C82E26BFA000B65EAE /* Frameworks */,
-				67ABA2C92E26BFA000B65EAE /* Resources */,
+				67ABA30D2E26DB1000B65EAE /* Sources */,
+				67ABA30E2E26DB1000B65EAE /* Frameworks */,
+				67ABA30F2E26DB1000B65EAE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				67ABA2CD2E26BFA000B65EAE /* PBXTargetDependency */,
+				67ABA3132E26DB1000B65EAE /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				67ABA2CE2E26BFA000B65EAE /* real-recognizes-realUITests */,
+				67ABA3142E26DB1000B65EAE /* real-recognizes-realUITests */,
 			);
 			name = "real-recognizes-realUITests";
 			packageProductDependencies = (
 			);
 			productName = "real-recognizes-realUITests";
-			productReference = 67ABA2CB2E26BFA000B65EAE /* real-recognizes-realUITests.xctest */;
+			productReference = 67ABA3112E26DB1000B65EAE /* real-recognizes-realUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		67ABA2A02E26BF9E00B65EAE /* Project object */ = {
+		67ABA2E62E26DB0E00B65EAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					67ABA2A72E26BF9E00B65EAE = {
+					67ABA2ED2E26DB0E00B65EAE = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					67ABA2C02E26BFA000B65EAE = {
+					67ABA3062E26DB1000B65EAE = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 67ABA2A72E26BF9E00B65EAE;
+						TestTargetID = 67ABA2ED2E26DB0E00B65EAE;
 					};
-					67ABA2CA2E26BFA000B65EAE = {
+					67ABA3102E26DB1000B65EAE = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 67ABA2A72E26BF9E00B65EAE;
+						TestTargetID = 67ABA2ED2E26DB0E00B65EAE;
 					};
 				};
 			};
-			buildConfigurationList = 67ABA2A32E26BF9E00B65EAE /* Build configuration list for PBXProject "real-recognizes-real" */;
+			buildConfigurationList = 67ABA2E92E26DB0E00B65EAE /* Build configuration list for PBXProject "real-recognizes-real" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 67ABA29F2E26BF9E00B65EAE;
+			mainGroup = 67ABA2E52E26DB0E00B65EAE;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 67ABA2A92E26BF9E00B65EAE /* Products */;
+			productRefGroup = 67ABA2EF2E26DB0E00B65EAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67ABA2A72E26BF9E00B65EAE /* real-recognizes-real */,
-				67ABA2C02E26BFA000B65EAE /* real-recognizes-realTests */,
-				67ABA2CA2E26BFA000B65EAE /* real-recognizes-realUITests */,
+				67ABA2ED2E26DB0E00B65EAE /* real-recognizes-real */,
+				67ABA3062E26DB1000B65EAE /* real-recognizes-realTests */,
+				67ABA3102E26DB1000B65EAE /* real-recognizes-realUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		67ABA2A62E26BF9E00B65EAE /* Resources */ = {
+		67ABA2EC2E26DB0E00B65EAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67ABA2BF2E26BFA000B65EAE /* Resources */ = {
+		67ABA3052E26DB1000B65EAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67ABA2C92E26BFA000B65EAE /* Resources */ = {
+		67ABA30F2E26DB1000B65EAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67ABA2A42E26BF9E00B65EAE /* Sources */ = {
+		67ABA2EA2E26DB0E00B65EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67ABA2BD2E26BFA000B65EAE /* Sources */ = {
+		67ABA3032E26DB1000B65EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67ABA2C72E26BFA000B65EAE /* Sources */ = {
+		67ABA30D2E26DB1000B65EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		67ABA2C32E26BFA000B65EAE /* PBXTargetDependency */ = {
+		67ABA3092E26DB1000B65EAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67ABA2A72E26BF9E00B65EAE /* real-recognizes-real */;
-			targetProxy = 67ABA2C22E26BFA000B65EAE /* PBXContainerItemProxy */;
+			target = 67ABA2ED2E26DB0E00B65EAE /* real-recognizes-real */;
+			targetProxy = 67ABA3082E26DB1000B65EAE /* PBXContainerItemProxy */;
 		};
-		67ABA2CD2E26BFA000B65EAE /* PBXTargetDependency */ = {
+		67ABA3132E26DB1000B65EAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67ABA2A72E26BF9E00B65EAE /* real-recognizes-real */;
-			targetProxy = 67ABA2CC2E26BFA000B65EAE /* PBXContainerItemProxy */;
+			target = 67ABA2ED2E26DB0E00B65EAE /* real-recognizes-real */;
+			targetProxy = 67ABA3122E26DB1000B65EAE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		67ABA2D52E26BFA000B65EAE /* Debug */ = {
+		67ABA31B2E26DB1000B65EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -292,11 +292,13 @@
 				DEVELOPMENT_TEAM = RKTJKHD762;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "real-recognizes-real/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = realxreal.ai;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +312,7 @@
 			};
 			name = Debug;
 		};
-		67ABA2D62E26BFA000B65EAE /* Release */ = {
+		67ABA31C2E26DB1000B65EAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,11 +322,13 @@
 				DEVELOPMENT_TEAM = RKTJKHD762;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "real-recognizes-real/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = realxreal.ai;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +342,7 @@
 			};
 			name = Release;
 		};
-		67ABA2D72E26BFA000B65EAE /* Debug */ = {
+		67ABA31D2E26DB1000B65EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,7 +406,7 @@
 			};
 			name = Debug;
 		};
-		67ABA2D82E26BFA000B65EAE /* Release */ = {
+		67ABA31E2E26DB1000B65EAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -459,7 +463,7 @@
 			};
 			name = Release;
 		};
-		67ABA2DA2E26BFA000B65EAE /* Debug */ = {
+		67ABA3202E26DB1000B65EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,7 +482,7 @@
 			};
 			name = Debug;
 		};
-		67ABA2DB2E26BFA000B65EAE /* Release */ = {
+		67ABA3212E26DB1000B65EAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,7 +501,7 @@
 			};
 			name = Release;
 		};
-		67ABA2DD2E26BFA000B65EAE /* Debug */ = {
+		67ABA3232E26DB1000B65EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -514,7 +518,7 @@
 			};
 			name = Debug;
 		};
-		67ABA2DE2E26BFA000B65EAE /* Release */ = {
+		67ABA3242E26DB1000B65EAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -534,43 +538,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67ABA2A32E26BF9E00B65EAE /* Build configuration list for PBXProject "real-recognizes-real" */ = {
+		67ABA2E92E26DB0E00B65EAE /* Build configuration list for PBXProject "real-recognizes-real" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67ABA2D72E26BFA000B65EAE /* Debug */,
-				67ABA2D82E26BFA000B65EAE /* Release */,
+				67ABA31D2E26DB1000B65EAE /* Debug */,
+				67ABA31E2E26DB1000B65EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67ABA2D42E26BFA000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-real" */ = {
+		67ABA31A2E26DB1000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-real" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67ABA2D52E26BFA000B65EAE /* Debug */,
-				67ABA2D62E26BFA000B65EAE /* Release */,
+				67ABA31B2E26DB1000B65EAE /* Debug */,
+				67ABA31C2E26DB1000B65EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67ABA2D92E26BFA000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-realTests" */ = {
+		67ABA31F2E26DB1000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-realTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67ABA2DA2E26BFA000B65EAE /* Debug */,
-				67ABA2DB2E26BFA000B65EAE /* Release */,
+				67ABA3202E26DB1000B65EAE /* Debug */,
+				67ABA3212E26DB1000B65EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67ABA2DC2E26BFA000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-realUITests" */ = {
+		67ABA3222E26DB1000B65EAE /* Build configuration list for PBXNativeTarget "real-recognizes-realUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67ABA2DD2E26BFA000B65EAE /* Debug */,
-				67ABA2DE2E26BFA000B65EAE /* Release */,
+				67ABA3232E26DB1000B65EAE /* Debug */,
+				67ABA3242E26DB1000B65EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 67ABA2A02E26BF9E00B65EAE /* Project object */;
+	rootObject = 67ABA2E62E26DB0E00B65EAE /* Project object */;
 }
