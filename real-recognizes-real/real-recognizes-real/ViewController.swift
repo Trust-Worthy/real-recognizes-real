@@ -2,16 +2,14 @@
 //  ViewController.swift
 //  real-recognizes-real
 //
-//  Created by Jonathan Bateman on 7/15/25.
+//  Created by Trust-Worthy on 7/15/25.
 //
 
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelegate{
     
-
-    @IBOutlet weak var searchBar: UISearchBar!
-    @IBOutlet weak var accountsTableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
     var accounts: [Account] = []
     var filteredAccounts: [Account] = []
@@ -20,14 +18,10 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        accountsTableView.dataSource = self
-        searchBar.delegate = self
+        tableView.dataSource = self
         
         
-        accounts = [
-                    Account(name: "Alice @ Gmail", otp: "123456"),
-                    Account(name: "Bob @ Work", otp: "789012"),
-                ]
+        self.accounts = [ Account(name: "Alice @ Gmail", otp: "123456"), Account(name: "Bob @ Work", otp: "789012")]
         filteredAccounts = accounts
     }
     
@@ -35,18 +29,21 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelega
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return filteredAccounts.count
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = accountsTableView.dequeueReusableCell(withIdentifier: "AccountCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "AccountCell", for: indexPath) as! AccountCell
         
-        let account = filteredAccounts[indexPath.row]
+        let account = accounts[indexPath.row]
         
         cell.textLabel?.text = account.name
         cell.detailTextLabel?.text = account.otp
         
         return cell
+        
+    
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
@@ -57,13 +54,10 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelega
         }
         
         // reload the tableview after any changes
-        accountsTableView.reloadData()
+        tableView.reloadData()
     }
 
-    struct Account {
-        let name: String
-        let otp: String
-    }
+    
 }
 
 	
