@@ -10,7 +10,6 @@ import UIKit
 class AccountCell: UITableViewCell {
     
     @IBOutlet weak var accountNameLabel: UILabel!
-    
     @IBOutlet weak var accountOTPLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
