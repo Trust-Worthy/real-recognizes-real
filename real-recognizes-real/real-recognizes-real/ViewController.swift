@@ -28,24 +28,24 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "AccountCell", for: indexPath) as! AccountCell
-//        
-//        let account = accounts[indexPath.row]
-//        print(account)
-//        print(account.name)
-//        print(account.OTP)
-//        cell.accountNameLabel.text = account.name
-//        cell.accountOTPLabel.text = account.OTP
-//        
-//        return cell
-//        
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "AccountCell", for: indexPath) as! AccountCell
         
         let account = accounts[indexPath.row]
-        
-        cell.textLabel?.text = account.name
+        print(account)
+        print(account.name)
+        print(account.OTP)
+        cell.accountNameLabel.text = account.name
+        cell.accountOTPLabel.text = account.OTP
         
         return cell
+        
+//        let cell = UITableViewCell()
+//        
+//        let account = accounts[indexPath.row]
+//        
+//        cell.textLabel?.text = account.name
+//        
+//        return cell
     }
 }
 
