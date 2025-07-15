@@ -8,6 +8,25 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource {
+
+    @IBOutlet weak var tableView: UITableView!
+    
+    private var accounts: [Account] = []
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        tableView.dataSource = self
+        
+        let account1 = Account(name: "Alice", OTP: "123456")
+        
+        let account2 = Account(name:"Bob", OTP: "78999")
+        
+        accounts.append(account1)
+        accounts.append(account2)
+    }
+
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -22,18 +41,5 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         return cell
     }
-    
-
-    @IBOutlet weak var tableView: UITableView!
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        tableView.dataSource = self
-    }
-
-
 }
 
