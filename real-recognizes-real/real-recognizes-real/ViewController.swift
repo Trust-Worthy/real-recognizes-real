@@ -18,16 +18,10 @@ class ViewController: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view.
         
         tableView.dataSource = self
-        
-        let account1 = Account(name: "Alice", OTP: "123456")
-        
-        let account2 = Account(name:"Bob", OTP: "78999")
-        
-        accounts.append(account1)
-        accounts.append(account2)
+        accounts = Account.getAccounts()
+       
     }
 
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return accounts.count
@@ -37,7 +31,9 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         let cell = UITableViewCell()
         
-        cell.textLabel?.text = "Row \(indexPath.row)"
+        let account = accounts[indexPath.row]
+        
+        cell.textLabel?.text = account.name
         
         return cell
     }
