@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		67ABA3822E27267600B65EAE /* SwiftOTP in Frameworks */ = {isa = PBXBuildFile; productRef = 67ABA3812E27267600B65EAE /* SwiftOTP */; };
+		67ABA3842E27267600B65EAE /* SwiftOTP-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 67ABA3832E27267600B65EAE /* SwiftOTP-Dynamic */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		67ABA3082E26DB1000B65EAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67ABA3842E27267600B65EAE /* SwiftOTP-Dynamic in Frameworks */,
+				67ABA3822E27267600B65EAE /* SwiftOTP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +132,8 @@
 			);
 			name = "real-recognizes-real";
 			packageProductDependencies = (
+				67ABA3812E27267600B65EAE /* SwiftOTP */,
+				67ABA3832E27267600B65EAE /* SwiftOTP-Dynamic */,
 			);
 			productName = "real-recognizes-real";
 			productReference = 67ABA2EE2E26DB0E00B65EAE /* real-recognizes-real.app */;
@@ -208,6 +217,9 @@
 			);
 			mainGroup = 67ABA2E52E26DB0E00B65EAE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				67ABA3802E27267600B65EAE /* XCRemoteSwiftPackageReference "SwiftOTP" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 67ABA2EF2E26DB0E00B65EAE /* Products */;
 			projectDirPath = "";
@@ -575,6 +587,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67ABA3802E27267600B65EAE /* XCRemoteSwiftPackageReference "SwiftOTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lachlanbell/SwiftOTP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67ABA3812E27267600B65EAE /* SwiftOTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67ABA3802E27267600B65EAE /* XCRemoteSwiftPackageReference "SwiftOTP" */;
+			productName = SwiftOTP;
+		};
+		67ABA3832E27267600B65EAE /* SwiftOTP-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67ABA3802E27267600B65EAE /* XCRemoteSwiftPackageReference "SwiftOTP" */;
+			productName = "SwiftOTP-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 67ABA2E62E26DB0E00B65EAE /* Project object */;
 }

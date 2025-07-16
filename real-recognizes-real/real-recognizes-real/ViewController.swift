@@ -39,13 +39,6 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         return cell
         
-//        let cell = UITableViewCell()
-//        
-//        let account = accounts[indexPath.row]
-//        
-//        cell.textLabel?.text = account.name
-//        
-//        return cell
     }
 }
 
